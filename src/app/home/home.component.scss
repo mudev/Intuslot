@@ -1,0 +1,134 @@
+/* Generated with http://gradient.quasi.ink */
+$purp_bg : url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAYklEQVQIWwFXAKj/ATgwZf8gDBYA7fLpAPEI/gAW7AsAbP5JAPYC+AABSiqQ/xUR/gDh+NkAGewPAF7+SwDsA+UAogO1AAFmNcn/8P3UAAHu3gBe+0IA8wPtAKAGtgD4DQQAIegkF7g2uYsAAAAASUVORK5CYII=");
+
+:host{
+		background-image: $purp_bg;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+}
+.framer {
+	display:flex;
+	justify-content: center;
+	background-size: cover;
+}
+.slotspin {
+	border: 6px solid transparent;
+	border-radius: 6px;
+	background-color: #222;
+	padding:6px;
+	min-width: 320px;
+	font-size: 4vw;
+	font-weight: bold;
+}
+#warped {
+	position: relative; 
+	display: block; 
+	width:290px; 
+	height:55px;
+	span{
+		font-family:'Racing Sans One';
+		font-size:38px;
+		color: #AB5F00;
+		font-weight:regular;
+		font-style:normal;
+		line-height:0.65; 
+		white-space:pre; 
+		overflow:visible; 
+		padding:0px;
+	}
+	&>span[class^=w]:nth-of-type(n+0){
+		display:block; 
+		position:absolute; 
+		transform-origin:50% 100%; 
+	}
+	.w0 { 
+		transform: rotate(-6.17rad); 
+		width: 22px; 
+		height: 25px;
+		left: 10.59px; 
+		top: 8.07px;
+	}
+	.w1 {
+		transform: rotate(-6.21rad); 
+		width: 22px; 
+		height: 25px;
+		left: 37.03px; 
+		top: 10.68px;
+	}
+	.w2 { 
+		transform: rotate(-6.24rad);
+		width: 11px; 
+		height: 25px;
+		left: 63.83px; 
+		top: 12.05px;
+	}
+	.w3 {
+		transform: rotate(-6.26rad); 
+		width: 22px; 
+		height: 25px;
+		left: 80.28px; 
+		top: 12.88px;
+	}
+	.w4 {
+		transform: rotate(-6.28rad); 
+		width: 7px; 
+		height: 25px;
+		left: 107.2px; 
+		top: 13.2px;
+	}
+	.w5 {
+		transform: rotate(-6.3rad); 
+		width: 15px; 
+		height: 25px;
+		left: 118.8px; 
+		top: 13.19px;
+	}
+	.w6 { 
+		transform: rotate(-6.31rad); 
+		width: 22px; 
+		height: 25px;
+		left: 138.85px; 
+		top: 12.8px;
+	}
+	.w7 {
+		transform: rotate(-6.33rad); 
+		width: 7px; 
+		height: 25px;
+		left: 166.31px; 
+		top: 12.14px;
+	}
+	.w8 {
+		transform: rotate(-6.34rad); 
+		width: 36px; 
+		height: 25px;
+		left: 177.9px; 
+		top: 10.89px;
+	}
+	.w9 {
+		transform: rotate(-6.36rad); 
+		width: 11px; 
+		height: 25px;
+		left: 218.87px; 
+		top: 9.1px;
+	}
+	.w10 {
+		transform: rotate(-6.36rad); 
+		width: 22px; 
+		height: 25px;
+		left: 234.74px; 
+		top: 7.55px;
+	}
+	.w11 {
+		transform: rotate(-6.36rad); 
+		width: 11px; 
+		height: 25px;
+		left: 261.85px; 
+		top: 5.9px;
+	}
+}
+
+
+
+
+

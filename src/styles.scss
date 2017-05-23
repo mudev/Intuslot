@@ -1,0 +1,45 @@
+@import "../node_modules/foundation-sites/assets/foundation";
+//default to flexbox mode
+@include foundation-everything(true);
+
+$login_bg: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAYklEQVQIWwFXAKj/AVREXv/29gYAExL2AFdQPwC7usoA0t/4APkCDAABW0pe/+7zBgD39eIAY1pHAOHc4wDDz+QA9f4PAAFoVGD/4OoBAO7t5gBQRTMAIhoUAKq1xQDo8gkAo9gmdNLyFrMAAAAASUVORK5CYII=");
+
+:host /deep/ {
+    background-image: $login_bg;
+    background-size: cover;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.form-registration-submit-button {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  @include button(true, $primary-color, auto, auto, solid);
+  border-radius: 5000px;
+}
+form {
+  .formw {
+    text-align: center;
+
+    h4 {
+      margin-bottom: 1rem;
+    }
+
+    .input-group-label {
+      background-color: $primary-color;
+      border-color: $primary-color;
+      min-height: 36px;
+      justify-content: center;
+    }
+
+    .input-group-field {
+      border-color: $primary-color;
+    }
+
+    .fa {
+      margin: auto;
+      color: white;
+      width: 1rem; // makes the width of icon labels equal
+    }
+  }
+}
